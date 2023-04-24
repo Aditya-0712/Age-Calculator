@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Aditya-0712/Age-Calculator)
-- Live Site URL: [Add live site URL here](https://aditya-0712.github.io/Age-Calculator/)
+- Solution URL: [https://github.com/Aditya-0712/Age-Calculator](https://github.com/Aditya-0712/Age-Calculator)
+- Live Site URL: [https://aditya-0712.github.io/Age-Calculator/](https://aditya-0712.github.io/Age-Calculator/)
 
 ## My process
 
@@ -75,5 +75,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Aditya](https://aditya-0712.github.io/Age-Calculator/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Aditya](https://github.com/Aditya-0712)
+- Frontend Mentor - [Aditya Batger](https://www.frontendmentor.io/profile/Aditya-0712)
