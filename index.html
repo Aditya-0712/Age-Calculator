@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Age Calculator</title>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="font.css">
+    </head>
+    <body>
+        <div class="main">
+
+            <form name="myform" autocomplete="off" onsubmit="calc() ; return false">
+                <div class="temp">
+                    <div class="sec">
+                        <p class="head">DAY</p>
+                        <input type="number" name="day" placeholder="DD">
+                        <p class="error" style="display:none;">This field is required</p>
+                    </div>
+                    <div class="sec">
+                        <p class="head">MONTH</p>
+                        <input type="number" name="month" placeholder="MM">
+                        <p class="error" style="display:none;">This field is required</p>
+                    </div>
+                    <div class="sec">
+                        <p class="head">YEAR</p>
+                        <input type="number" name="year" placeholder="YYYY">
+                        <p class="error" style="display:none;">This field is required</p>
+                    </div>
+                </div>
+    
+                <div class="sub">
+                    <div class="hhr"></div>
+                    <button type="submit"><img src="icon-arrow.svg"></button>
+                    <div class="hhr"></div>
+                </div>  
+    
+                <div class="subpc">
+                    <div class="hhr"></div>
+                    <div class="hhr"></div>
+                    <button type="submit"><img src="icon-arrow.svg"></button>
+                </div> 
+            </form>
+            
+            <div class="res">
+                <h1 class="ans">- -</h1>
+                <h1 class="norm">years</h1>
+            </div>
+            <div class="res" style="bottom: 10px;">
+                <h1 class="ans">- -</h1>
+                <h1 class="norm">months</h1>
+            </div>
+            <div class="res" style="bottom: 20px;">
+                <h1 class="ans">- -</h1>
+                <h1 class="norm">days</h1>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

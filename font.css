@@ -1,0 +1,19 @@
+@font-face {
+    font-family: popins;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: popbold;
+    src: url(Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: popit;
+    src: url(Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: italicpop;
+    src: url(Poppins-Italic.ttf);
+}

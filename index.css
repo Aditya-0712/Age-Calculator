@@ -1,0 +1,215 @@
+button 
+{
+    padding:0;
+    background-color: transparent;
+    border: none;
+}
+
+body 
+{
+    display:flex;;
+    width:100%;
+    height: auto;
+    background-color: rgba(240,240,240,255);
+    margin:0;
+    font-size: 0;
+}
+
+.main 
+{
+    display:flex;;
+    flex-direction: column;
+    background-color: white;
+    width:330px;
+    height:420px;
+    margin:100px auto 0px auto;
+    border-radius: 20px 20px 90px 20px;
+}
+
+.temp 
+{
+    display:flex;
+    width:100%;
+    height: auto;
+    margin:0;
+}
+
+form
+{
+    display: flex;
+    width:fit-content;
+    flex-direction: column;
+    height: auto;
+    margin:40px auto 0px auto;
+}
+
+.sec 
+{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    height:auto;
+    margin:0px 10px 0px 10px;
+}
+
+.head 
+{
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    color: #6d6d6d;
+    letter-spacing: 3px;
+    font-family: popins;
+    margin:0px auto 5px 2px;
+}
+
+input[type="number"]
+{
+    display: flex;
+    width:60px;
+    height: 45px;
+    border-radius: 5px;
+    margin:0;
+    border:1px solid rgba(0, 0, 0, 0.15);
+    padding-left: 15px;
+    color:black;
+    font-family: popbold;
+    font-size: 17px;
+}
+
+input[type="number"]::placeholder
+{   
+    color: #8a8a8a;
+}
+
+.error 
+{
+    width: auto;
+    height: auto;
+    font-size: 8px;
+    font-family: italicpop;
+    color:red;
+    margin:5px auto 0px 2px;
+}
+
+.sub , .subpc
+{
+    display:flex;;
+    width:fit-content;
+    height: auto;
+    margin:30px auto 30px auto;
+}
+
+.sub img , .subpc img
+{
+    display: flex;
+    width: 22px;
+    height: auto;
+    margin: 0;
+    padding: 12px;
+    background-color: #864dfc;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sub img:hover , .subpc img:hover
+{
+    background-color: black;
+}
+
+.hhr
+{
+    display: flex;
+    width: 110px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: auto 0px auto 0px;
+}
+
+.res
+{
+    display:flex;;
+    width: fit-content;
+    height:auto;
+    margin: 0px auto 0px 30px;
+    position: relative;
+}
+
+.ans , .norm 
+{
+    display:flex;;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    font-family: popit;
+    color:black;
+    margin:0px 20px 0px 0px;
+    font-weight: bold;
+}
+
+.ans
+{
+    color:#864cff;
+}
+
+.subpc
+{
+    display: none;
+}
+
+@media screen and (min-width:800px)
+{
+    form
+    {
+        margin-left: 30px;
+    }
+
+    .res 
+    {
+        margin-left: 40px;
+    }
+
+    .main 
+    {
+        width: 480px;
+        height: 450px;
+        margin-top: 70px;
+    }
+
+    .sub 
+    {
+        display: none;
+    }
+
+    .subpc
+    {
+        display: flex;
+        margin:10px auto 0px auto;
+    }
+
+    .hhr
+    {
+        width:180px
+    }
+
+    .ans , .norm
+    {
+        font-size: 50px;
+    }
+
+    .subpc img 
+    {
+        width:40px;
+    }
+
+    input[type="number"]
+    {
+        width:90px;
+    }
+
+    .error 
+    {
+        font-size: 9px;
+    }
+}
